@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f3f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d3d3d3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #0b090a;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #0b090a;
+}
+
+input[type="number"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 2px solid #161a1d;
+  background-color: #f5f3f4;
+  color: #0b090a;
+  transition: border-color 0.3s;
+  margin-bottom: 8px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #660708;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #660708;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover{
+  background-color: #ba181b;
+}
+
+button:disabled:hover {
+  background-color: #ba181b;
+  cursor: not-allowed;
+}
+
+button:disabled {
+  background-color: #ba181b;
+  cursor: not-allowed;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #b1a7a6;
+}
+
+th {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.resultados-section {
+  margin-top: 20px;
+}
+
+.resultados-section p {
+  margin: 0;
+}
+
+.resultados-section h3 {
+  margin-bottom: 8px;
+}
+
+.resultados-section ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.resultados-section li {
+  margin-bottom: 8px;
+}
+
+.resultados-section .peso-label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.resultados-section .peso-value {
+  color: #ba181b;
+}
+
+/* Agregado para el botón "Reiniciar" */
+#reiniciar {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #660708;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#reiniciar:hover {
+  background-color: #ba181b;
+}
+
+
+

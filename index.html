@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de peso de alumnos</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora del peso de los alumnos</h1>
+      <form id="formulario">
+        <label for="repeticiones">Ingresa la cantidad de alumnos:</label>
+        <input type="number" id="repeticiones" required />
+        <button type="submit" class="generarformularios">Generar formularios</button>
+      </form>
+      <div id="formularios-generados"></div>
+      <div class="button-container">
+        <button id="enviar-datos" class="hidden" class="enviarinfo">Enviar datos</button>
+      </div>
+      <div id="resultados"></div>
+      <table id="tabla-alumnos" class="hidden">
+        <thead>
+          <tr>
+            <th>Alumno</th>
+            <th>Peso</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-body"></tbody>
+        <button id="reiniciar" class="hidden">Reiniciar</button>
+      </table>
+    </div>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
